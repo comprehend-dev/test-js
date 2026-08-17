@@ -19,3 +19,7 @@ export function getTimeCalculator(bpm, numerator, denominator) {
         throw new Error("Unsupported denominator");
     return new MusicTimeCalculator(bpm, numerator, denominator);
 }
+
+export function getRandom() {
+    return 2;
+}
